@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://tamanugi.github.io/tamanugi-nmi/"
 languageCode = "jp-ja"
 title = "TAMANUGI.NMI"
 theme="beautifulhugo"
