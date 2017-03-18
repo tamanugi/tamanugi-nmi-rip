@@ -1,0 +1,5 @@
+baseURL = "http://example.org/"
+languageCode = "jp-ja"
+title = "TAMANUGI.NMI"
+theme="beautifulhugo"
+canonifyurls = true
