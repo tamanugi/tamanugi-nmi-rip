@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TAMANUGI.NMI</title>
-    <link>http://example.org/index.xml</link>
+    <link>https://tamanugi.github.io/tamanugi-nmi/index.xml</link>
     <description>Recent content on TAMANUGI.NMI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>jp-ja</language>
-    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tamanugi.github.io/tamanugi-nmi/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
