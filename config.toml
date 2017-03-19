@@ -1,5 +1,5 @@
-baseURL = "https://tamanugi.github.io/tamanugi-nmi/"
-languageCode = "jp-ja"
+baseURL = "https://www.tamanugi.com/tamanugi-nmi/"
+languageCode = "en-us"
 title = "TAMANUGI.NMI"
 theme="beautifulhugo"
 canonifyurls = true
