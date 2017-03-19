@@ -1,9 +1,29 @@
 baseURL = "https://www.tamanugi.com"
 languageCode = "en-us"
 title = "TAMANUGI.NMI"
-theme="beautifulhugo"
+theme = "beautifulhugo"
 canonifyurls = true
-publishdir="docs"
+publishdir = "docs"
+metaDataFormat = "yaml"
+hasCJKLanguage = true
 
-[params]
-subtitle="眠い系WEBエンジニアの備忘録的な何か"
+[permalinks]
+  post = "/post/:year:month:day/"
+
+[Params]
+  subtitle = "眠い系WEBエンジニアの備忘録的な何か"
+  rss = true
+
+[Author]
+  name = "tamanugi"
+  github = "tamanugi"
+
+[[menu.main]]
+  name = "Blog"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags"
+  weight = 2
