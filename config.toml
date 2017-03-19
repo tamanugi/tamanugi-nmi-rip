@@ -1,4 +1,4 @@
-baseURL = "https://www.tamanugi.com/tamanugi-nmi/"
+baseURL = "https://www.tamanugi.com"
 languageCode = "en-us"
 title = "TAMANUGI.NMI"
 theme="beautifulhugo"
