@@ -22,8 +22,3 @@ hasCJKLanguage = true
   name = "Blog"
   url = "/"
   weight = 1
-
-[[menu.main]]
-  name = "Tags"
-  url = "/tags"
-  weight = 2
