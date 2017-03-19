@@ -4,3 +4,6 @@ title = "TAMANUGI.NMI"
 theme="beautifulhugo"
 canonifyurls = true
 publishdir="docs"
+
+[params]
+subtitle="眠い系WEBエンジニアの備忘録的な何か"
