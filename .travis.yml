@@ -7,8 +7,7 @@ env:
   global:
     secure: YzSweHARoN+XLGUl3K86uj9r6dFywpiLJtKTgZv5Ok0bno1WcfnL7a+ocLKYkB7TtKEBdPq74SjbYYC9/9x1+LJ9SYvWvBonm/Y1U6/JPq5nihx5IzxEN7Q3rk/hxcQFMcJWa3Xux7+Jx0onOpi4hrU7dNjk3yiLfWXK/kzBNUmIP3t3Ssg7Y7+pKPs2QKqb6EUIrfIT06mj9JnFoDo5ZQlqLDzjhuVCZeyuG6IpF5sP2voeC4QatSIHnCXnSOaN13w56m/6WZaklVG34IfIAL458jIpEvzWsFJr219w7Fbv1VskBXiiBuBbFrtIBK8vng7IEM08DPlm6+VuJo+S1z1vEEYKrxvxpfwW0vqobpjue6pOK36LFOhNqR9vYriJbcecFJAcJgCEnfwt7RMPuMJjRzEvTqPtaTtI5fC7pfmdl9MoR+zWxboOt9xv9lCOQhYBH2RSkipzfvGM+hrG00GRvwGSTRKVYyc77ZNbam64RvOpteTPmcpRpv/sGNikiTgRUdE4homWboydlB2+NAHTllIgEZ2MQwY1kyggTpFNbCW1fnHjaiA87/6deQoRht/J2CHYG54Q1VQm7kUa/Pui6rUKX7Hswe7qottvFbdBH9Lm9PC/ur8CmJT6zTaYbwbVZmnoNBvKZy4W4tBbCNIfrTIV++4FpDbpzDhCOx4=
 
-before_script:
-    - git clone --branch v2 https://github.com/go-yaml/yaml $GOPATH/src/gopkg.in/yaml.v2
+install:
     - go get -u -v github.com/spf13/hugo
 
 script:
