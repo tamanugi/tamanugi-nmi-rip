@@ -13,6 +13,7 @@ hasCJKLanguage = true
 [Params]
   subtitle = "眠い系WEBエンジニアの備忘録的な何か"
   rss = true
+  dateFormat = "2006-01-02"
 
 [Author]
   name = "tamanugi"
