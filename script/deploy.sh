@@ -2,7 +2,7 @@
 
 set -eu
 
-DIST_DIR=public
+DIST_DIR=docs
 
 # 変更があったらcommit
 cd ${DIST_DIR}
