@@ -17,5 +17,5 @@ git diff --cached --exit-code --quiet || git commit -m "Update blog at ${d}"
 
 # GitHubにpush
 echo "Push to GitHub"
-git push origin master > /dev/null 2>&1
+git push origin master
 echo "Successfully deployed."
