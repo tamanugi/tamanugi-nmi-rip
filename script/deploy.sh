@@ -5,7 +5,8 @@ set -eu
 DIST_DIR=docs
 
 # git config
-git config user.name "tamanugi"
+git config -global user.email "example@example.com"
+git config -global user.name "tamanugi"
 
 # 変更があったらcommit
 cd ${DIST_DIR}
