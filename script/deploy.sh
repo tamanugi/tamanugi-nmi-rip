@@ -18,5 +18,5 @@ git diff --cached --exit-code --quiet || git commit -m "Update blog at ${d}"
 # GitHubにpush
 echo "Push to GitHub"
 git remote add hugo https://${GH_TOKEN}@github.com/tamanugi/tamanugi-nmi.git
-git push origin hugo
+git push hugo master
 echo "Successfully deployed."
