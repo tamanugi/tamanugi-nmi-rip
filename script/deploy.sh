@@ -4,6 +4,9 @@ set -eu
 
 DIST_DIR=docs
 
+# git config
+git config user.name "tamanugi"
+
 # 変更があったらcommit
 cd ${DIST_DIR}
 echo `git diff --name-only`
