@@ -6,6 +6,7 @@ DIST_DIR=docs
 
 # 変更があったらcommit
 cd ${DIST_DIR}
+echo `git diff --name-only`
 git add .
 d=`date +"%Y/%m/%d %k:%M:%S"`
 git diff --cached --exit-code --quiet || git commit -m "Update blog at ${d}"
