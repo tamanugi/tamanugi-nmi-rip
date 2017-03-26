@@ -12,4 +12,4 @@ script:
     - hugo
 
 after_success:
-    - ./scripts/deploy.sh
+    - ./script/deploy.sh
